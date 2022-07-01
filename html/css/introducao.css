@@ -1,0 +1,320 @@
+#section-b {
+    background: #F5F5F5;
+    width: 100%;
+    padding: 5px;
+}
+
+#section-c {
+    background: white;
+    width: 100%;
+    padding: 5px;
+}
+
+#div-00 {
+    background: transparent;
+    width: 75%;
+    height: 60px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    position: relative;
+}
+
+#div-00 h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    line-height: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+}
+
+#div-01 {
+    background: transparent;
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#div-01 p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: none;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+#div-01 h4 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#div-01 h5 {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+#div-01a {
+    background: rgb(145, 248, 205);
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#div-01a p {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: none;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+#div-01b {
+    width: 35%;
+    height: auto;
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#div-01b1 {
+    width: 300px;
+    height: auto;
+    background: white;
+    border: 5px solid coral;
+    border-radius: 40px;
+    display: table;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+#div-01b1 a {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: coral;
+}
+
+#div-01b1:hover {
+    width: 300px;
+    height: auto;
+    background: coral;
+    border: 5px solid white;
+    border-radius: 40px;
+    display: table;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+#div-01b1 a:hover {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#div-02 {
+    background: transparent;
+    width: 35%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#div-02 img {
+    border: 10px solid rgb(7, 221, 42);
+    border-radius: 100%;
+    filter: drop-shadow(6px 2px 8px rgb(112, 227, 160));
+}
+
+.div-03 {
+    background: transparent;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div-03 h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    line-height: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+}
+
+.div-04 {
+    background: transparent;
+    width: 99%;
+    height: 520px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.div-05 {
+    background: transparent;
+    width: 15%;
+    height: 240px;
+    margin: 11px;
+    padding: 20px;
+    display: block;
+    float: left;
+}
+
+.div-05 img {
+    width: 150px;
+    height: 150px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.div-05 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    display: table;
+}
+
+.div-05 p {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    line-height: 2rem;
+    margin: 5px;
+}
+
+#div-00c {
+    background: url(../img/blue.jpg);  /* rgb(182, 160, 190)*/
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(4px 2px 5px rgb(49, 43, 226));
+}
+
+.div-01c {
+    width: 20%;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.div-02c {
+    background: white;
+    width: 55%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    float: left;
+}
+
+.div-01c h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.div-01c p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.div-02c h1 {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5rem;
+    color: blueviolet;
+}
+
+.div-03c {
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: rgb(36, 20, 69);
+    filter: drop-shadow(4px 2px 6px rgb(59, 200, 228));
+}
+
+.div-03c a {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-03c a:hover {
+    color:  rgb(36, 20, 69);
+}
+
+.div-03c:hover {
+    background: white;
+    border: 5px solid  rgb(36, 20, 69) ;
+}

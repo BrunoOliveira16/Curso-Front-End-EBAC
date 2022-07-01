@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- RESET -->
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- Estilos Personalizados -->
+	<link rel="stylesheet" type="text/css" href="./css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/formulario.css">
+
+	<title>Formularios</title>
+</head>
+
+<body id="form01">
+
+	<header>
+		<div id="logo-header">
+			<a href="https://ebaconline.com.br/" target="_blank" rel="noopener">
+				<img src="./img/logo.png" id="logo" title="Logo">
+			</a>	
+		</div>	
+		
+		<div id="text-header">
+			<h2>Curso Front-end</h2>
+			<p>EBAC - Escola Britânica de Artes Criativas e Tecnologia</p>
+		</div>
+	</header>
+
+	<section id="sect-form01">
+		
+		<div class="main-div">	
+			<nav>
+				<h3>Navegação</h3>
+				<ul>
+					<li><a href="./index.html">Introdução</a></li>
+					<li><a href="./listas-e-links.html">Listas e Links</a></li>
+					<li><a href="./formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="./tabela.html">Tabelas</a></li>
+					<li><a href="./layouts.html">Layouts</a></li>
+					<li><a href="./formularios.html">Formulários</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="divform-00"><h2>Saiba Mais</h2></div>
+
+		<div id="divform-01">
+			<div id="divform-01a"><h3>Gostou do que viu? Vamos conversar!</h3></div>
+
+			<form method="post">
+				<div class="caixa">
+					<p>
+						<label>Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</p>
+				</div>
+
+				<div class="caixa">
+					<p>
+						<label>E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</p>
+				</div>
+
+				<div class="caixa">
+					<p>
+						<label for="tel">Telefone</label><br>
+						<input type="tel" id="Telefone" name="tel" placeholder="Digite seu telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+					</p>
+				</div>
+
+				<div class="botao">
+					<p>
+						<input type="radio" name="especialidade" value="Juridica" title="Juridica">Pessoa Juridica 
+						<input type="radio" name="especialidade" value="Fisica" title="Fisica">Pessoa Fisica
+					</p>
+				</div>
+
+				<div class="caixa">
+					<p>
+						<label>Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5" title="mensagem"></textarea>
+					</p>
+				</div>
+
+				<div class="enviar">
+					<label>Clique para enviar</label>
+					<input type="submit" value="Enviar">
+				</div>
+
+			</form>
+
+		</div>
+
+
+	</section>
+
+	<section id="sect-form02">
+
+		<div class="divform-01"><h2>Conheça Mais Projetos de Formulários</h2></div>
+
+		<div class="divform-02">
+			<div class="divform-03">
+				<img src="./img/mautencao.png" alt="em-construcao" title="em-construcao">
+				<h3>Formulario Gamer</h3>
+				<p>Pesquisa sobre plataformas, gêneros e tipos de midias de consumo</p>
+			</div>
+			<div class="divform-03">
+				<img src="./img/mautencao.png" alt="em-construcao" title="em-construcao">
+				<h3>Formulario Financeiro</h3>
+				<p>Pesquisa sobre renda, investimentos e orçamento doméstico</p>
+			</div>
+			<div class="divform-03">
+				<img src="./img/mautencao.png" alt="em-construcao" title="em-construcao">
+				<h3>Pesquisa de Opinião</h3>
+				<p>Pesquisa sobre consumo, preferências, hobbys e ambientes</p>
+			</div>
+		</div>
+
+	</section>
+
+	<footer>
+		<p>Desenvolvido por José Bruno</p>
+	</footer>
+
+</body>
+
+</html>

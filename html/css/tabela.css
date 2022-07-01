@@ -1,0 +1,63 @@
+table {
+	width: 75%;
+	border-collapse: collapse;
+	text-align: center;
+	float: right;
+	table-layout: auto;
+	position: relative;
+	margin: 20px;
+}
+
+th {
+	height: 50px;
+	background-color: #0099FF;
+	color: white;
+	font-weight: bold;
+}
+
+
+tr:hover {
+	background-color: coral;
+}
+
+table th, td {
+	padding: 15px;
+	border: 1px solid #99FFFF;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+
+.title-row td {
+	font-weight: bolder;
+	background-color: #BFEFFF;
+	height: 50px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.produto {
+	font-weight: bolder;
+}
+
+.div-tab01 {
+	background: transparent;
+    width: 75%;
+    height: auto;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    position: relative;
+}
+
+.div-tab01 h3 {
+	font-size: 3.3rem;
+	text-align: center;
+}
+
+.div-tab01 p {
+	font-size: 2rem;
+	text-align: center;
+	color: gray;
+	font-weight: bold;
+}

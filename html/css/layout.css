@@ -1,0 +1,257 @@
+/* 
+	Arquivo CSS geral com estilos dos elementos do header, nav, body, article e footer gerais
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #333;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  height: 110px;
+  display: flex;
+}
+
+#logo-header {
+	width: 10%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#text-header {
+	width: 90%;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+header h2 {
+	font-size: 5rem;
+	line-height: 5rem;
+	text-align: center;
+}
+
+header p {
+	font-size: 2rem;
+	line-height: 4rem;
+	text-align: center;
+}
+
+header a {
+	float: left;
+	width: 150px;
+	display: block;
+}
+
+header img:hover{
+	border: 5px solid black;
+}
+
+.main-div {
+	width: 380px;
+	height: 100%;
+	margin: 10px;
+}
+
+nav {
+	background: #333;
+	float: left;
+	width: 300px;
+	height: auto;
+	padding: 20px;
+	margin: 10px;
+	list-style-type: none;
+}
+
+nav li, a {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 0.1rem;
+	padding: 10px;
+}
+
+nav li, a:hover {
+	color: rgb(7, 221, 42);
+	font-size: 2rem;
+}
+
+nav h3 {
+	font-size: 3rem;
+	line-height: 1.5;
+	font-weight: bold;
+	padding: 5px;
+	letter-spacing: 0.1rem;
+	background: transparent;
+	color: rgb(7, 221, 42);
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	padding: 5px;
+	color: red;
+}
+
+h2 {
+	font-size: 3rem;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	padding: 5px
+}
+
+li {
+	font-size: 2rem;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	padding: 5px
+}
+
+dt {
+	font-size: 2rem;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	padding: 5px
+}
+
+dd {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+	padding: 5px
+}
+
+p {
+	font-size: 1.5rem;
+	text-align: justify;
+	line-height: 1.5;
+	letter-spacing: 0.1rem;
+}
+
+
+article {
+  padding: 20px;
+  width: 75%;
+  float: right;
+}
+
+article h3 {
+	font-size: 3.2rem;
+	text-align: center;
+} 
+
+article h5 {
+	font-size: 2rem;
+	color: gray;
+	text-align: center;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  font-size: 1.8rem;
+}
+
+footer p {
+	text-align: center;
+}
+
+
+
+#logo {
+	float: left;
+	position: relative;
+	width: 130px;
+	height: 80px;
+}
+
+@media (max-width: 380px) {
+	header, nav, section {
+		width: 100%;
+		min-width: 320px;
+		height: auto;
+	} 
+	
+	#logo-header {
+		width: 30%;
+		position: relative;
+	}
+
+	#logo-header img {
+		width: 80px;
+		height: 50px;
+	}
+	
+	#text-header {
+		width: 70%;
+		position: relative;
+	}
+
+	#text-header h2 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	#text-header p {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+}
+
+@media (max-width: 768px) {
+	header, nav, section {
+		width: 100%;
+		min-width: 531px;
+		height: auto;
+	} 
+	
+	#logo-header {
+		width: 20%;
+		margin: 0;
+		position: relative;
+	}
+
+	#logo-header img {
+		width: 130px;
+		height: 50px;
+	}
+	
+	#text-header {
+		width: 70%;
+		position: relative;
+	}
+
+	#text-header h2 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+
+	#text-header p {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+}
