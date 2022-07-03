@@ -3,6 +3,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat ;
     background-size: 100%;
+    height: auto;
 }
 
 #list-00 h1 {
@@ -79,7 +80,7 @@
 .list-04 {
     background: transparent;
     width: 99%;
-    height: 60px;
+    height: auto;
     margin: 10px;
     margin-top: 3px;
     margin-bottom: 30px;
@@ -121,4 +122,54 @@
 
 .list-05:hover a {
     color: rgb(7, 221, 42); 
+}
+
+@media (max-width: 900px) {
+    .list-03 h2, .list-01 h2 {
+        font-size: 2rem;
+    }
+    
+    .list-02 li, dt, dl {
+        font-size: 1.5rem;
+    }
+
+    .list-05 a {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .list-02, .list-01 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 695px) {
+    .list-05 a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 578px) {
+    .list-04 {
+        float: none;
+    }
+
+    .list-04 nav {
+        display: block;
+    }
+
+    .list-05 a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 417px) {
+    .list-02, .list-01 {
+        margin-left: 10px ;
+    }
+
+    .list-02 li, dl {
+        margin-left: 20px ;
+    }
 }

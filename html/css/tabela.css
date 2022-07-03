@@ -2,10 +2,11 @@ table {
 	width: 97%;
 	border-collapse: collapse;
 	text-align: center;
-	float: right;
 	table-layout: auto;
 	position: relative;
-	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 th {
@@ -41,9 +42,10 @@ table th, td {
 
 .div-tab01 {
 	background: transparent;
-    width: 97%;
+    width: 100%;
     height: auto;
-    margin: 10px;
+    margin-bottom: 20px;
+	margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     float: right;
@@ -60,4 +62,67 @@ table th, td {
 	text-align: center;
 	color: gray;
 	font-weight: bold;
+}
+
+@media (max-width: 1060px) {
+	.main-table th, td {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 916px) {
+	.main-table th, td {
+		padding: 5px;
+		height: auto;
+	}
+
+	.title-row td {
+		padding: 5px;
+		height: auto;
+	}
+}
+
+@media (max-width: 545px) {
+	.main-table th, td {
+		font-size: 1rem;
+	}
+
+	.div-tab01 h3 {
+		font-size: 1.5rem;
+	}
+
+	.div-tab01 p {
+		font-size: 1rem;
+	}
+}
+	
+
+/* Smartphone */ 
+
+@media (max-width: 400px) {
+	.main-table {
+		min-width: 360px;
+	}
+	
+	.main-table th, td {
+		font-size: 0.8rem;
+	}
+
+	/* ===Função a pricipio desabilitada que muda a posição da tabela===
+	
+	.table-action thead {
+		display: none;
+	}
+
+	.table-action td:not(:first-child) {
+		display: block;
+	}
+
+	.table-action tr {
+	border-bottom: 1px solid #99FFFF;
+	}
+
+	.table-action td {
+		border: 0;
+	} */
 }
