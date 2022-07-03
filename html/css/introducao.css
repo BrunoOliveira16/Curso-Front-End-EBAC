@@ -10,31 +10,8 @@
     padding: 5px;
 }
 
-#div-00 {
-    background: transparent;
-    width: 75%;
-    height: 60px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-    position: relative;
-}
-
-#div-00 h2 {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 5rem;
-    letter-spacing: 0.2rem;
-    line-height: 5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    position: static;
-}
-
 #div-01 {
-    background: transparent;
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-top: 20px;
     margin-left: auto;
@@ -44,12 +21,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    top: 40px;
 }
 
 #div-01 p{
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: none;
     letter-spacing: 0.1rem;
     font-size: 2rem;
 }
@@ -68,17 +45,15 @@
 
 #div-01a {
     background: rgb(145, 248, 205);
-    width: 75%;
+    width: 95%;
     height: auto;
     display: flex;
     flex-direction: column;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
     margin-left: auto;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 #div-01a p {
@@ -90,26 +65,19 @@
 }
 
 #div-01b {
-    width: 35%;
+    width: 100%;
     height: auto;
     display: flex;
-    float: right;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: 40px;
 }
 
 #div-01b1 {
-    width: 300px;
-    height: auto;
     background: white;
     border: 5px solid coral;
     border-radius: 40px;
-    display: table;
-    text-align: center;
-    padding: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #div-01b1 a {
@@ -118,18 +86,14 @@
     text-align: center;
     padding: 10px;
     color: coral;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #div-01b1:hover {
-    width: 300px;
-    height: auto;
     background: coral;
     border: 5px solid white;
     border-radius: 40px;
-    display: table;
-    text-align: center;
-    padding: auto;
-    margin: auto;
 }
 
 #div-01b1 a:hover {
@@ -145,71 +109,47 @@
     width: 35%;
     height: auto;
     margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
     float: right;
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 #div-02 img {
     border: 10px solid rgb(7, 221, 42);
     border-radius: 100%;
-    filter: drop-shadow(6px 2px 8px rgb(112, 227, 160));
-}
-
-.div-03 {
-    background: transparent;
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.div-03 h2 {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 5rem;
-    letter-spacing: 0.2rem;
-    line-height: 5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    position: static;
+    filter: drop-shadow(6px 2px 10px rgb(112, 227, 160));
 }
 
 .div-04 {
     background: transparent;
-    width: 99%;
-    height: 520px;
-    margin: 10px;
+    width: 90%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-bottom: 30px;
-    display: block;
+    display: block
 }
 
 .div-05 {
     background: transparent;
-    width: 15%;
-    height: 240px;
-    margin: 11px;
-    padding: 20px;
-    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
+    padding: 20px;
 }
 
 .div-05 img {
     width: 150px;
     height: 150px;
-    padding: auto;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: center;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .div-05 h3 {
@@ -217,18 +157,7 @@
     font-weight: bold;
     font-size: 2rem;
     line-height: 2rem;
-    padding: auto;
-    margin: auto;
     text-align: center;
-    display: table;
-}
-
-.div-05 p {
-    font-size: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    line-height: 2rem;
-    margin: 5px;
 }
 
 #div-00c {
@@ -257,8 +186,8 @@
 
 .div-02c {
     background: white;
-    width: 55%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -291,7 +220,7 @@
 }
 
 .div-03c {
-    width: 40%;
+    width: 80%;
     height: auto;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -317,4 +246,207 @@
 .div-03c:hover {
     background: white;
     border: 5px solid  rgb(36, 20, 69) ;
+}
+
+
+@media (max-width: 1257px) {
+    #div-02 {
+        float: none;
+    }
+
+    .div-01c {
+        width: 32%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div-01c h2 {
+        font-size: 1.8rem;
+    }
+
+    .div-01c p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1135px) {
+    #div-00c {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* Tablet */
+
+@media (max-width: 822px) {
+    #div-01 {
+        width: 80%;
+        height: auto;
+        position: unset;
+        padding: 0;
+        float: none;
+    }
+
+    #div-01 {
+        margin-top: 0;
+    }
+
+    .div-03 h2 {
+       font-size: 4rem;
+    }
+
+    #div-01 p, h5 {
+        font-size: 1.5rem;
+    }
+
+    #div-01 h4 {
+        font-size: 2rem;
+    }
+
+    #div-02, #div-01a, #div-01b {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .foto-perfil {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #div-01a p {
+        font-size: 1.5rem;
+    }
+
+    .div-04 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        float: left;
+        padding: 0;
+    }
+
+    .div-05 {
+        width: 25%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div-05 img {
+        min-width: 50px;
+        width: 80%;
+        height: auto;
+    }
+
+    .div-05 h3 {
+        font-size: 1.5rem;
+    }
+
+    #div-00c {
+        width: 97%;
+        height: auto;
+        margin: 10px;
+        padding: 0;
+        float: left;
+        display: block;
+    }
+    
+    .div-01c {
+        width: 32%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .div-03c {
+        width: 97%;
+        height: auto;
+        margin: 10px;
+    }
+    .div-03c a {
+        font-size: 1.5rem;
+    }
+
+    .div-01c h2 {
+        font-size: 1.5rem;
+    }
+
+    .div-01c p {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* Smartphone */ 
+
+@media (max-width: 425px) {
+    #div-01, #div-01a, #div-01b, #div-02, #div-00c, .div-03c {
+        width: 100%;
+        float: none;
+        padding: 20px;
+        min-width: 360px;
+    }
+    
+    #div-02 img {
+        width: 80%;
+        height: auto;
+
+    }
+    
+    #div-01b1 a {
+        font-size: 2rem;
+        text-align: center;
+        margin: auto;
+    }
+   
+    #div-01b1 a:hover {
+        font-size: 2rem;
+    }
+
+    .div-03 h2 {
+        font-size: 3rem;
+    }
+
+    .div-05 h3 {
+        font-size: 1rem;
+    }
+
+    #div-00c {
+       display: table;
+       margin-left: 0;
+    }
+
+    .div-01c {
+        width: 50%;
+        display: flex;
+        float: right;
+    }
+
+    .div-02c {
+        display: block;
+    }
+
+    .div-01c h2 {
+        font-size: 1.5rem;
+    }
+
+    .div-02c h1{
+        font-size: 3rem;
+    }
+
+    .div-03c {
+        padding: 0;
+        width: 95%;
+    }
+
+    .div-03c a {
+        font-size: 1.5rem;
+    }
+
 }

@@ -14,12 +14,13 @@ html {
 }
 
 header {
-  background-color: #333;
+  background: url(../img/black.jpg);
   width: 100%;
   padding: 5px;
   color: white;
   height: 110px;
   display: flex;
+  margin: 5px;
 }
 
 #logo-header {
@@ -61,19 +62,25 @@ header img:hover{
 }
 
 .main-div {
-	width: 380px;
-	height: 100%;
-	margin: 10px;
+	width: 100%; /*380px*/
+	height: auto;
+	margin: 5px;
 }
 
 nav {
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav ul {
 	background: #333;
-	float: left;
-	width: 300px;
+	width: 100%;
 	height: auto;
-	padding: 20px;
-	margin: 10px;
+	padding: 5px;
 	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
 }
 
 nav li, a {
@@ -83,6 +90,7 @@ nav li, a {
 	color: white;
 	letter-spacing: 0.1rem;
 	padding: 10px;
+	margin-right: 32px;
 }
 
 nav li, a:hover {
@@ -90,14 +98,24 @@ nav li, a:hover {
 	font-size: 2rem;
 }
 
-nav h3 {
-	font-size: 3rem;
-	line-height: 1.5;
-	font-weight: bold;
-	padding: 5px;
-	letter-spacing: 0.1rem;
-	background: transparent;
-	color: rgb(7, 221, 42);
+.div-00 {
+    background: transparent;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.div-00 h2 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    line-height: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -168,7 +186,7 @@ section::after {
 }
 
 footer {
-  background-color: #333;
+  background: url(../img/black.jpg);
   padding: 20px;
   color: white;
   font-size: 1.8rem;
@@ -178,8 +196,6 @@ footer p {
 	text-align: center;
 }
 
-
-
 #logo {
 	float: left;
 	position: relative;
@@ -187,45 +203,49 @@ footer p {
 	height: 80px;
 }
 
-@media (max-width: 380px) {
-	header, nav, section {
-		width: 100%;
-		min-width: 320px;
+@media (max-width: 1257px) {
+	.main-div a {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 940px) {
+	header {
 		height: auto;
-	} 
-	
-	#logo-header {
-		width: 30%;
-		position: relative;
 	}
-
-	#logo-header img {
-		width: 80px;
-		height: 50px;
-	}
-	
-	#text-header {
-		width: 70%;
-		position: relative;
-	}
-
 	#text-header h2 {
-		font-size: 2rem;
-		line-height: 3rem;
+		font-size: 4rem;
+		line-height: 3.5rem;
 	}
 
 	#text-header p {
-		font-size: 1rem;
-		line-height: 1rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
 	}
 
+	#logo-header img {
+		width: 130px;
+		height: 50px;
+	}
+
+	.main-div a {
+		font-size: 1.5rem;
+	}
+
+	nav li {
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
-@media (max-width: 768px) {
-	header, nav, section {
-		width: 100%;
-		min-width: 531px;
+/* Tablet */
+
+@media (max-width: 822px) {
+	header, section, .div-00 {
+		width: 99%;
 		height: auto;
+		padding: 0;
 	} 
 	
 	#logo-header {
@@ -252,6 +272,85 @@ footer p {
 	#text-header p {
 		font-size: 1rem;
 		line-height: 1rem;
+	}
+
+	nav {
+		width: 100%;
+		height: auto;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	.div-00 h2 {
+		font-size: 4rem;
+	}
+
+}
+
+@media (max-width: 785px) {
+	nav {
+		width: 100%;
+		height: auto;
+	}
+
+	nav ul {
+		display: block;
+		
+	}
+
+	.main-div a {
+		font-size: 1.5rem;
+	}
+
+	nav li {
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media (max-width: 520px) {
+	#text-header h2 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	#text-header p {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+	#logo-header img {
+		width: 80px;
+		height: 50px;
+	}
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+	header, section, .main-div, .div-00 {
+		width: 100%;
+		min-width: 360px;
+		height: auto;
+	} 
+	
+	#logo-header {
+		width: 30%;
+	}
+	
+	#text-header {
+		width: 70%;
+		position: relative;
+	}
+
+	.main-div a {
+		font-size: 1rem;
+	}
+
+	.div-00 h2 {
+		font-size: 3rem;
 	}
 
 }

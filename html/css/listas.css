@@ -5,13 +5,6 @@
     background-size: 100%;
 }
 
-#list-00 {
-    background: url(../img/silver.jpg);
-    width: 70%;
-    height: 60px;
-    margin: 20px;
-    float: right;
-}
 #list-00 h1 {
     color: rgb(7, 221, 42);
     text-align: center;
@@ -25,11 +18,12 @@
 
 .list-01 {
     background: black;
-    width: 35%;
-    height: 60px;
-    margin: 10px;
-    margin-bottom: 0;
-    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -46,11 +40,10 @@
 .list-02 {
     background: rgba(35, 35, 59, 1);
     opacity: 0.8;
-    width: 35%;
-    height: 450px;
-    margin: 10px;
-    margin-top: 0;
-    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
 }
@@ -63,27 +56,14 @@
     color: white;
 }
 
-.list-img {
-    width: 35%;
-    height: 460px;
-    margin: 10px;
-    margin-bottom: 0;
-    float: right;
-    display: flex;
-    flex-direction: column;
-}
-
-#img-lista {
-    width: 200px;
-    margin-top: 100px;
-    margin-left: 150px;
-}
 
 .list-03 {
     background: black;
-    width: 71.5%;
+    width: 99%;
     height: 60px;
-    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
     float: right;
 }
 
@@ -98,7 +78,7 @@
 
 .list-04 {
     background: transparent;
-    width: 70.5%;
+    width: 99%;
     height: 60px;
     margin: 10px;
     margin-top: 3px;

@@ -1,5 +1,5 @@
 table {
-	width: 75%;
+	width: 97%;
 	border-collapse: collapse;
 	text-align: center;
 	float: right;
@@ -41,7 +41,7 @@ table th, td {
 
 .div-tab01 {
 	background: transparent;
-    width: 75%;
+    width: 97%;
     height: auto;
     margin: 10px;
     margin-left: auto;
