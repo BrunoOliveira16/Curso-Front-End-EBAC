@@ -1,3 +1,9 @@
+#tab-sec-02 {
+	background-color: #b2d0e4;
+	padding: 3%;
+	width: 100%;
+}
+
 table {
 	width: 97%;
 	border-collapse: collapse;
@@ -9,6 +15,20 @@ table {
 	margin-bottom: 20px;
 }
 
+.table-01 {
+	width: 45%;
+}
+
+.table-01 th{
+	background-color: rgb(27, 1, 100);
+	border: 1px solid white;
+}
+
+.table-01 td{
+	font-size: 1.5rem;
+	border: 1px solid white;
+}
+
 th {
 	height: 50px;
 	background-color: #0099FF;
@@ -16,6 +36,9 @@ th {
 	font-weight: bold;
 }
 
+tr {
+	background-color: white;
+}
 
 tr:hover {
 	background-color: coral;
@@ -34,6 +57,13 @@ table th, td {
 	height: 50px;
 	padding-right: 25px;
 	padding-left: 25px;
+}
+
+.row-01 td{
+	background-color: rgb(4, 94, 94);
+	color: white;
+	font-size: 1.8rem;
+	font-weight: bold;
 }
 
 .produto {
@@ -83,7 +113,7 @@ table th, td {
 }
 
 @media (max-width: 545px) {
-	.main-table th, td {
+	.main-table th, td, .row-01 td, .table-01 td {
 		font-size: 1rem;
 	}
 
@@ -103,8 +133,8 @@ table th, td {
 	.main-table {
 		min-width: 360px;
 	}
-	
-	.main-table th, td {
+
+	.main-table th, td, .table-01 td{
 		font-size: 0.8rem;
 	}
 
