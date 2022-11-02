@@ -17,13 +17,12 @@ body {
     margin: 0 auto;
 }
 
-#posts {
+#posts, #main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 1.5rem;
     align-items: center;
-   
 }
 
 h3 {
