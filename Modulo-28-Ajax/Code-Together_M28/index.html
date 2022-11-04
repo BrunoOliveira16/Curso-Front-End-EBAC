@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- CSS -->
+
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Dev Finder</title>
 </head>
 <body>
 
-    <div class="conatiner">
+    <div class="container">
         <h1>devfinder</h1>
 
         <div class="container-search">
-            <input type="text" placeholder="Busque pelo seu username do GitHub">
-            <button type="button">Buscar</button>
+            <input type="text" placeholder="Busque pelo seu username do GitHub" id="username">
+            <button onclick="userSubmit()" id="search">Buscar</button>
         </div>
 
         <div id="main"></div>
