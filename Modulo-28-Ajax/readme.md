@@ -13,9 +13,7 @@ Módulo Ajax (assuntos abordados):
 ### HTTP
 HyperText Transfer Protocol
 Referências:
-´´´
-https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#o_que_pode_ser_controlado_pelo_http
-´´´
+- https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#o_que_pode_ser_controlado_pelo_http
 
 ### AJAX
 Asynchronous JavaScript and XML
