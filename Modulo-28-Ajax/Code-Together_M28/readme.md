@@ -5,4 +5,9 @@
 Endereço API GitHub: 
 - [GitHub > Users](https://docs.github.com/en/rest/reference/users)
 
-Link para o Navegador:
+## 💻 Screenshot do projeto
+- Tela 01
+![Screenshot](./assets/screen01.jpg)
+
+- Tela 02
+![Screenshot](./assets/screen02.jpg)

@@ -2,5 +2,12 @@
   "type": "module",
   "dependencies": {
     "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages --dist Code-Together_M28 --branch main"
   }
 }
+
