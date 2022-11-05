@@ -22,7 +22,7 @@ btnSubmit.addEventListener('click', (user) => {
             <div class="container-info">
                 <div class="box-name">
                     <h1>${data.name}</h1>
-                    <p>${data.html_url}</p>
+                    <a href="${data.html_url}" target="_blank">${data.html_url}</a>
                 </div>
                 <div class="container-data">
                     <div class="box-info">

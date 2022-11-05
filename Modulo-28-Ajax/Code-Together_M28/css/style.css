@@ -112,14 +112,15 @@ body {
 .box-name {
     width: 100%;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.box-name h1, p {
+.box-name h1, a {
     text-align: center;
     margin: 0 auto;
 }
 
-.box-name p {
+.box-name a {
     color: rgb(61, 61, 223);
     font-weight: bold;
 }
