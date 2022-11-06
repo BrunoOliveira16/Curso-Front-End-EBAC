@@ -26,3 +26,12 @@ Criado por Roy Fielding, um dos criadores do HTTP
 - Validar dados, documentos, números importantes (CPF, CEP, Telefone, Número de Cartão, .... )
 - Prevenção de vulnerabilidades como SQL Injection
 - Tarefa do front-end, que podem ser processadas pelo back-end
+
+## 📚 CodeTogether
+
+### Briefing
+1. Criar página com formulário para consultar CEP em
+https://viacep.com.br/ e preencher os campos do formulário com os
+dados do endereço;
+2. Analisar o código disponibilizado e testar melhorias;
+3. Aplicar alterações e melhorias de interface;
