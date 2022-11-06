@@ -10,6 +10,9 @@
 </head>
 <body>
     <div class="container">
+
+        <h1>Formulário de Cadastro</h1>
+
         <form action="" id="form">
             <div class="input-group">
                 <label for="nome">Nome</label>
@@ -19,37 +22,46 @@
                 <label for="email">E-mail</label>
                 <input type="email" class="not-null" placeholder="E-mail" id="email" name="email">
             </div>
-            <div class="input-group">
-                <label for="CPF">CPF</label>
-                <input type="text" class="not-null" placeholder="CPF" id="cpf" name="cpf">
-            </div>
-            <div class="input-group">
-                <label for="CEP">CEP</label>
-                <input type="text" class="not-null" placeholder="CEP" id="cep" name="cep">
-            </div>
 
+            <div class="input-group2">
+                <div class="input-group">
+                    <label for="CPF">CPF</label>
+                    <input type="text" class="not-null" placeholder="CPF" id="cpf" name="cpf">
+                </div>
+                <div class="input-group">
+                    <label for="CEP">CEP</label>
+                    <input type="text" class="not-null" placeholder="CEP" id="cep" name="cep">
+                </div>
+               
+            </div>
+           
             <div class="adress">
                 <div class="input-group">
                     <label for="rua">Rua</label>
                     <input type="text" id="rua" syze="50">
                 </div>
-                <div class="input-group">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" syze="30">
-                </div>
-                <div class="input-group">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" syze="30">
-                </div>
-                <div class="input-group">
-                    <label for="uf">UF</label>
-                    <input type="text" id="uf" syze="2">
-                </div>
+
+                <div class="input-adress">
+                    <div class="input-group">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" syze="30">
+                    </div>
+                    <div class="input-group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" syze="30">
+                    </div>
+                    <div class="input-group">
+                        <label for="uf">UF</label>
+                        <input type="text" id="uf" syze="2">
+                    </div>
+                </div> 
             </div>
-            <div class="input-group">
+
+            <div class="input-button">
                 <button>Cadastrar</button>
             </div>
         </form>
+
         <div id="mensagem"> </div>
     </div>
     <script src="./assets/js/script.js"></script>
