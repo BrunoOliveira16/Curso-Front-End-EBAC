@@ -1,3 +1,4 @@
+/* CSS principal dos elementos*/
 * {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -32,7 +33,7 @@ h1 {
 form {
     width: 50%;
     height: auto;
-    border: 4px solid rgb(3, 7, 70);
+    border: 3px solid rgb(241, 241, 247);
     border-radius: 1rem;
     padding: 20px;
     margin: 30px auto;
@@ -51,7 +52,7 @@ label {
     font-size: 2rem;
     font-weight: bold;
 }
-
+ /* CSS dos campos do formulario */
 .input-group
 input {
     display: block;
@@ -104,6 +105,7 @@ button:hover {
     opacity: .8;
 }
 
+/* CSS das mensagens de erro */
 #mensagem {
     display: grid;
     grid-template-columns: repeat(2, 4fr);
@@ -116,10 +118,10 @@ button:hover {
     font-size: 1.8rem;
     background-color: rgb(128, 41, 41);
     color: rgb(241, 241, 247);
-    border: 4px solid rgb(241, 241, 247);
     border-radius: 1rem;
     padding: 10px;
-    line-height: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
 }
 
 strong {
