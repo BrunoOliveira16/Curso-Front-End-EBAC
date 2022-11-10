@@ -8,6 +8,23 @@ Módulo Web Standards (assuntos abordados):
 - **Aula 04:** Performance web;
 
 ## 📚 Conteúdo
+
+### Web Standards
+Objetivos (Analise, Persistência, Atualização constante e solução de problemas)
+- Design
+- Applications
+- Devices
+- Architecture
+- Semantic
+- Services
+-Browsers
+
+### SEO
+- Search
+- Engine
+- Optmization
+
+
 Em desenvolvimento...
 
 ## 📚 CodeTogether
