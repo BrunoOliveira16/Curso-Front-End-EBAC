@@ -10,20 +10,23 @@ Módulo Web Standards (assuntos abordados):
 ## 📚 Conteúdo
 
 ### Web Standards
-Objetivos (Analise, Persistência, Atualização constante e solução de problemas)
 - Design
 - Applications
 - Devices
 - Architecture
 - Semantic
 - Services
--Browsers
+- Browsers
+
+Objetivos (Analise, Persistência, Atualização constante e solução de problemas)
 
 ### SEO
 - Search
 - Engine
 - Optmization
 
+Perfil (Criativo, prático, analítico, Interativo e hands-on)
+Técnicas (Análises, HTML semântico, metatags, titles, robots.txt, sitemap.xml, ranqueamento)
 
 Em desenvolvimento...
 
