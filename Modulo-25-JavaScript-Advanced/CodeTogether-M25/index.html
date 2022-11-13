@@ -10,21 +10,53 @@
     <title>javaScript - Modulo 25</title>
 </head>
 <body>
-    
+
     <section>
 
-        <h2><strong>Exercicio:</strong> Digite 3 Números para calcular a média</h2>
+        <h2>Cálculo de Média Simples</h2>
 
         <input type="number" id="a" placeholder="digite um número">
         <input type="number" id="b" placeholder="digite um número">
         <input type="number" id="c" placeholder="digite um número">
 
-        <button onclick="obterMedia()">
+        <button id="btn" onclick="obterMedia()">
             Calcular Média
         </button>
 
         <div id="resultado"></div>
 
+    </section>
+
+    <!-- Cálculo notas alunos -->
+    <section>
+        <div class="container-01">
+            <h2>Cálculo de Média Aluno</h2>
+            <p>Preencha as notas de 0 a 10</p>
+
+                <div class="caixa">
+                    <label>Nota 1</label><br>
+                    <input type="text" placeholder="digite a nota" class="numero" id="N1">
+                </div>
+                <div class="caixa">
+                    <label>Nota 2</label><br>
+                    <input type="text" placeholder="digite a nota" class="numero" id="N2">
+                </div>
+                <div class="caixa">
+                    <label>Nota 3</label><br>
+                    <input type="text" placeholder="digite a nota" class="numero" id="N3">
+                </div>
+                <div class="caixa">
+                    <label>Nota 4</label><br>
+                    <input type="text" placeholder="digite a nota" class="numero" id="N4">
+                </div>
+                <div class="caixa">
+                    <button onclick="CalcularMedia()" id="btn-01">
+                        Calcular Média
+                    </button>
+                </div>
+
+            <div id="exibicao"></div>
+        </div>
     </section>
 
     <script src="./assets/js/index.js"></script>
