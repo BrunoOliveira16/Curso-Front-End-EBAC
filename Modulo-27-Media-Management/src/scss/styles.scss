@@ -1,0 +1,180 @@
+$color-font: rgb(255, 249, 249);
+$color-bg-default: rgb(15, 11, 8);
+$font-default: Arial, Helvetica, sans-serif;
+
+body {
+    max-width: 1440px;
+    font-family: $font-default;
+    margin: 0 auto;
+}
+
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    header {
+        width: 100%;
+        background-color: $color-bg-default;
+        position: relative;
+        height: 50vh;
+        overflow: hidden;
+        
+        h1 {
+            color: $color-font;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 3rem;
+        }
+
+        .waves {
+            width: 110%;
+            bottom: 0;
+            position: absolute;
+            left: 10;
+            right: 0;
+
+            path:nth-child(1){
+                animation: dash1 4s ease-in-out infinite alternate;
+                stroke-dasharray: 150;
+                stroke: #fff;
+                stroke-width: 4px;
+            }
+
+            path:nth-child(2){              
+                animation: wave2 2s ease-in-out infinite alternate;
+            }
+           
+            path:nth-child(3){
+                animation: wave3 3s ease-in-out infinite alternate;
+            }
+        }
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin: 20px auto;
+        
+        img {
+            width: 400px;
+            height: auto;
+            margin: 10px auto;
+    
+            &:hover {
+                opacity: 75%;
+                border: 1px solid black;
+                cursor: pointer;
+            }
+        }  
+    }
+}
+
+
+
+//Animações para o header
+@keyframes wave1 {
+    from{
+        transform: translate(100px);
+    }
+}
+
+@keyframes wave2 {
+    from{
+        transform: translate(110px);
+    }
+}
+
+@keyframes wave3 {
+    from{
+        transform: translate(120px);
+    }
+}
+
+@keyframes dash1{
+    from{
+        stroke-dashoffset: 2000;
+    }
+}
+
+// Video
+
+#Video {
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        width: max-content;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem auto;
+    }
+   
+
+    .fa {
+        font-size: 20px;
+    }
+
+    video {
+        width: 600px;
+        height: auto;
+    }
+
+    .controls {
+        background-color: #333;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        opacity: .5;
+        transition: opacity .4s;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    button {
+        background: transparent;
+        color: #fff;
+        font-weight: bolder;
+        text-shadow: 1px 1px 2px #000;
+        border: none;
+        cursor: pointer;
+    }
+
+    .timeline {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        border: none;
+        border-left: 2px solid #ddd;
+        border-right: 2px solid #ddd;
+
+        .bar {
+            background-color: #e00;
+            height: 5px;
+            flex: 1;
+
+            .inner {
+                background-color: #ccc;
+                width: 0;
+                height: 100%;
+            }
+        }
+    }
+}
