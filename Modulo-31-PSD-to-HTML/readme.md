@@ -30,25 +30,34 @@ SASS... livre escolha.
 
 ## 📚 Questionário
 **1.** Oque é Pixel perfect?
-A- Uma imagem que já vem com os pixels alinhados
-B- Quando a imagem está muito pixelada 
-C- A otimização dos pixels na tela 
-D- Nenhuma das alternativas
+A- Uma imagem que já vem com os pixels alinhados.
+
+B- Quando a imagem está muito pixelada .
+
+*C- A otimização dos pixels na tela.* 
+
+D- Nenhuma das alternativas.
 
 **resposta:** O conceito de pixel perfect é utilizado para otimizar os pixels na tela, evitando que a imagem fique pixelada, na aula 6 temos uma explicação de como aplicar o conceito.
 
 **2.** Quando focamos em interface, alteramos diretamente a: 
 A- UX
+
 *B- UI*
+
 C- Performance 
+
 D- Todas as alternativas 
 
 **resposta:** Para garantir que o usuário tenha uma boa impressão temos que ter uma boa experiência em interface (UI).
 
 **3.**  Para uma melhor experiência do usuário focamos em: 
 A- UX
+
 B- UI
+
 C- Performance 
+
 *D- Todas as alternativas* 
 
 **resposta:** Para garantir que o usuário tenha uma boa impressão temos que ter uma boa experiência (UX), interface (UI) e performance.
