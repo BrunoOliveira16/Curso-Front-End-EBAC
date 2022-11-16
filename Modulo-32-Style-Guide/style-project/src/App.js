@@ -1,13 +1,11 @@
 import './App.css';
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import Menu from './components/Menu';
+import Dashboard from './components/index';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="contained">Hello World</Button>
-      <Menu />
+      <Dashboard />
     </div>
   );
 }

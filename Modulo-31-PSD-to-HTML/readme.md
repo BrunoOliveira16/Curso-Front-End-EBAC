@@ -30,11 +30,11 @@ SASS... livre escolha.
 
 ## 📚 Questionário
 **1.** Oque é Pixel perfect?
-A- Uma imagem que já vem com os pixels alinhados.
+*A- Uma imagem que já vem com os pixels alinhados.*
 
 B- Quando a imagem está muito pixelada .
 
-*C- A otimização dos pixels na tela.* 
+C- A otimização dos pixels na tela.
 
 D- Nenhuma das alternativas.
 

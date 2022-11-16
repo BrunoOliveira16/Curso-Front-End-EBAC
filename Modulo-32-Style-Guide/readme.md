@@ -59,3 +59,39 @@ um dashboard.
 ### Ao finalizar
 1. Adicione a pasta do seu projeto em algum repositório público
 2. Envie o link no portal da E.B.A.C para avaliação
+
+
+## 📚 Questionário
+
+**1.** Podemos citar como componentes:
+A- Padronização
+
+B- Reutilização
+
+C- Produtividade
+
+*D- Todas as alternativas*
+
+**resposta:** Utilizamos componentes pensando no design da interface de usuário através de padronização, reutilização e produtividade.
+
+**2.** Um site que se adapta a diversos tamanhos e dispositivos é um site:
+*A- Responsivo*
+
+B- Consistente
+
+C- Previsível
+
+D- Nenhuma das alternativas
+
+**resposta:** A Responsividade de um site é a responsável por sua variedade de formatos.
+
+**3.** O componente responsável pela otimização da produtividade é a:
+A- Padronização
+
+*B- Reutilização*
+
+C- Produtividade
+
+D- Todas as alternativas
+
+**resposta:** A reutilização é um fator comum no desenvolvimento e garante uma alta na produtividade.
