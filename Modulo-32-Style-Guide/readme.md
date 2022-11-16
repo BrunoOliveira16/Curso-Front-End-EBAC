@@ -64,6 +64,7 @@ um dashboard.
 ## 📚 Questionário
 
 **1.** Podemos citar como componentes:
+
 A- Padronização
 
 B- Reutilização
@@ -75,6 +76,7 @@ C- Produtividade
 **resposta:** Utilizamos componentes pensando no design da interface de usuário através de padronização, reutilização e produtividade.
 
 **2.** Um site que se adapta a diversos tamanhos e dispositivos é um site:
+
 *A- Responsivo*
 
 B- Consistente
@@ -86,6 +88,7 @@ D- Nenhuma das alternativas
 **resposta:** A Responsividade de um site é a responsável por sua variedade de formatos.
 
 **3.** O componente responsável pela otimização da produtividade é a:
+
 A- Padronização
 
 *B- Reutilização*
