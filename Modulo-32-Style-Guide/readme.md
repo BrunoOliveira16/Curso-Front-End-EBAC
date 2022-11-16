@@ -15,10 +15,13 @@ Módulo Style Guide (assuntos abordados):
 - Produtividade
 
 Bibliotecas apresentadas:
--**Bootstrap** (https://getbootstrap.com/docs/5.2/customize/components/)
--**Material Design** (https://m2.material.io/components)
--**Material UI** (react) (https://mui.com/pt/material-ui/getting-started/overview/)
--**Bold design system** (https://bold.bridge.ufsc.br/pt/components/overview)
+- **Bootstrap** (https://getbootstrap.com/docs/5.2/customize/components/)
+
+- **Material Design** (https://m2.material.io/components)
+
+- **Material UI** (react) (https://mui.com/pt/material-ui/getting-started/overview/)
+
+- **Bold design system** (https://bold.bridge.ufsc.br/pt/components/overview)
 
 ### Agilidade
 *Processos de Desenvolvimento*
@@ -75,6 +78,7 @@ C- Produtividade
 
 **resposta:** Utilizamos componentes pensando no design da interface de usuário através de padronização, reutilização e produtividade.
 
+
 **2.** Um site que se adapta a diversos tamanhos e dispositivos é um site:
 
 *A- Responsivo*
@@ -86,6 +90,7 @@ C- Previsível
 D- Nenhuma das alternativas
 
 **resposta:** A Responsividade de um site é a responsável por sua variedade de formatos.
+
 
 **3.** O componente responsável pela otimização da produtividade é a:
 
