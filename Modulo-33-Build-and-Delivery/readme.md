@@ -28,6 +28,8 @@ Tipos de Testes
 - Segurança
 - Performance
 
+Jest - Biblioteca utilizada para testes  em JavaScript
+
 ## 📚 Code Together
 
 ### Briefing
