@@ -8,8 +8,25 @@ Módulo Build and Delivery (assuntos abordados):
 
 
 ## 📚 Conteúdo
-Em desenvolvimento....
+### SDE
+*Software Development Environment*
+- Desenvolvimento
+- Beta
+- Produção
 
+### Web Server
+*Servidores web*
+- Hospedagem compartilhada
+- IaaS-Infrastructure as a Service
+- PaaS-Platform as a Service
+
+### Testes
+Tipos de Testes
+- Funcional
+- Regressivo
+- Unitários
+- Segurança
+- Performance
 
 ## 📚 Code Together
 
