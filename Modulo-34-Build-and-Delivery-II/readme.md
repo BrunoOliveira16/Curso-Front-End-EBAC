@@ -19,6 +19,38 @@ Módulo Build and Delivery II (assuntos abordados):
 - Já vem instalado na maioria das distribuições Linux
 - Server já vem instalado
 
+### Deploy
+*Implementação*
+- Infraestrutura
+- Domínio
+- Entrega
+
+### CI
+*Continuous Integration*
+- Colaboração
+- Code Review / Merge
+- Automação (pipelines)
+
+### CD
+*Continuous Delivery*
+- Ciclos evolutivos
+- Tagueamento
+- deploy automático
+
+### DEVOPS
+### DEV
+- Code (GitLab, Git)
+- Build (Gradle, Senatype Nexus)
+- Test (Azure)
+- Release (OpenStack)
+
+### OPS
+- Plan (Jenks)
+- Monitor (Grafana, Graylog)
+- Operate (Kubernetes, Ansible, Chef)
+- Deploy (AWS, Docker)
+
+
 ## 📚 Code Together
 
 ### Briefing
