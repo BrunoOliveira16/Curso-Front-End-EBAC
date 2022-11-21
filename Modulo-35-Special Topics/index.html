@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Browser API</title>
+</head>
+<body>
+    <div class="container">
+
+        <section>
+            <h2>Drag and Drop</h2>
+
+            <div class="parent">
+                <div class="origin dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>To-Do</h4>
+                    <div id="drag-1" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 1
+                    </div>
+                    <div id="drag-2" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 2
+                    </div>
+                    <div id="drag-3" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 3
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Doing</h4>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Feito</h4>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
