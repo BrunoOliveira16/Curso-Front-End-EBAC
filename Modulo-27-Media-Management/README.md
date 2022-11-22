@@ -42,3 +42,30 @@ npm run dev
 animação com SVG, de acordo com o conteúdo das aulas
 2. Analisar o código disponibilizado e testar melhorias
 3. Aplicar alterações e melhorias de interface
+
+
+## Update
+- Atualizada as dependecias no package.json na data 22.11.2022
+- Comandos utilizados para a tarefa:
+
+Este comando verifica as ultimas atualizações dos pacotes no package.json:
+```
+npm outdated
+```
+
+Foi instalado o pacote npm-check-update globalmente através do comando abaixo, para instalar versões major que não permitem mudanças através do comando básico npm update:
+```
+npm install -g npm-check-updates
+```
+
+Foi efetuado o comando abaixo para atualizar as versões no package.json, tanto dependencies quanto devDependencies, assim o npm poderá instalar as versões major.
+```
+ncu -u
+```
+
+Durante a execução do comando acima, o windows impediu a execução do comando por conta de privilégios para executar scripts, devido politica de segurança, foi necessário no próprio power shell executar o comando abaixo.
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+após a execução do comando, foi efetuado novamente o comando ncu -u e após efetuado o comando npm install.
