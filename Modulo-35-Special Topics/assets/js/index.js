@@ -31,3 +31,20 @@ function drop(event){
 //     drag.addEventListener('dragstart', dragStart);
 
 // })
+
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "green";
+ctx.fillRect(10, 10, 150, 100);
+
+window.addEventListener('resize', function(){
+    if (this.window.innerWidth < 620)
+        console.log('Smartphone');
+    else if (this.window.innerWidth < 920)
+        console.log("Tablet");
+    else {
+        console.log('Desktop');
+    }
+    /*console.log('redimensionou para a largura: ' + this.window.innerWidth);*/
+})
