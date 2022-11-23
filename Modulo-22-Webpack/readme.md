@@ -1,42 +1,41 @@
-## 📚 Modulo 23 - CSS Fonts and Effects
-Conteúdo referente ao curso Desenvolvedor Full-Stack Python da EBAC.
+# webpack-academico
 
-Módulo CSS Fonts and Effects (assuntos abordados):
-- **Aula 01:** Fontes Web e Efeitos de texto;
-- **Aula 02:** Sombras;
+## 📝 Repositório de Estudo - WebPack
 
-## 📚 Conteúdo
-### CSS
-#### Posicionamento (display)
-- block
-- inline
-- flex
-- grid
+- Este repositório trata-se da utilização do empacotador de modulos para JavaScript o WebPack que em outras palavras, ele junta os arquivos JS (e também outros formatos) da sua aplicação (seja arquivos seus ou dependências externas) em um arquivo só (ou mais de um), de forma otimizada.
+---
 
-#### Alinhamento
-- flex: justify-content (horizontal)
-- flex: align-item (vertical)
-- grid
+Para rodar o projeto, certifique-se de ter o webpack instalado e digite o comando abaixo no terminal:
+```
+npm rum build
+```
 
-#### Direção
-- flex-direction: row / column / reverse
-- grid-template-columns
-- grid-template-rows
+## 📚 Seções
 
-#### Posicionamento de imagens
-- object-fit: cover / contain
-- object-position
+O projeto é composto das seguintes caracteristicas:
 
-## 📚 Code Together
-### Briefing
-1. Criar Landing page com layout completo
+- **Instalação do WebPack:** Instalação por meio do Node.js através do comando **npm install --save-dev webpack-cli**;
+- **Criação de Modulos:** Criação do modulo por meio do comando **npx webpack --config webpack.config.js**;
+- **Empacotamento de arquivos css:** Utilização de plugins para realização da tarefa através do comando **npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin**;
+- **Trabalhando com imagens:** Utilização do plugin file loader, para realização da tarefa através do comando **npm install --save-dev file-loader**;
+---
 
-2. Adaptar o projeto base para um projeto original
+## 💼 Tecnologias utilizadas
 
-3. Alterar texto, fontes, cores e imagens
+Para o desenvolvimento do projeto foi utilizado as seguintes tecnologias:
 
-4. Desenvolver novas seções se achar necessário
+- WebPack;
+- Node.js 16.15.0;
 
-### Foi desenvolvido o projeto Lance para essa tarefa, em um repositório prórpio no meu github.
+---
 
-Link: https://github.com/BrunoOliveira16/landing-page-lance.git
+## Documentações
+
+- **WebPack**
+```
+https://webpack.js.org/concepts/
+```
+
+## 🙋🏻‍♂️ Autor
+
+Bruno Oliveira
