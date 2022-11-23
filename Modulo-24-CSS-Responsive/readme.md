@@ -1,7 +1,7 @@
 ## 📚 Modulo 24 - CSS Responsive
 Conteúdo referente ao curso Desenvolvedor Full-Stack Python da EBAC.
 
-Módulo Special Topics (assuntos abordados):
+Módulo CSS Responsive (assuntos abordados):
 - **Aula 01:** Introdução;
 - **Aula 02:** ViewPort;
 - **Aula 03:** Grid View;
