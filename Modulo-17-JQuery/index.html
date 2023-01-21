@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>WebStore</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./assets/images/header-logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#sobre" rel="sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="#contato" rel="contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>WebStore seu E-commerce Preferido!</h2>
+                        <p>Compre sem sair de casa</p>
+                        <a href="#">Compre Agora!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Produtos em Destaques</h1>
+                        <h2>Roupas e Cosméticos</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="./assets/images/item-01.jpg" alt="Item 1">
+                            <h4>Calça Jeans Clara</h4>
+                            <h6>R$ 60,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-02.jpg" alt="Item 2">
+                            <h4>Calça Jeans Escura</h4>
+                            <h6>R$ 60,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-03.jpg" alt="Item 3">
+                            <h4>Casaco Azul</h4>
+                            <h6>R$ 120,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-04.jpg" alt="Item 4">
+                            <h4>Bolsa Azul</h4>
+                            <h6>R$ 50,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-05.jpg" alt="Item 5">
+                            <h4>Bolsa Rosa</h4>
+                            <h6>R$ 60,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-06.jpg" alt="Item 6">
+                            <h4>Tenis Vermelho</h4>
+                            <h6>R$ 100,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-07.jpg" alt="Item 7">
+                            <h4>Camisa Pólo Branca</h4>
+                            <h6>R$ 80,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-08.jpg" alt="Item 8">
+                            <h4>Boné Azul</h4>
+                            <h6>R$ 90,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-09.jpg" alt="Item 9">
+                            <h4>Boné Preto</h4>
+                            <h6>R$ 90,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h2>Perfumes e Bijuterias</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item" id="NewItem-01">
+                            <img src="./assets/images/item-10.jpg" alt="Item 1">
+                            <h4>Relógio Prata</h4>
+                            <h6>R$ 200,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-11.jpg" alt="Item 2">
+                            <h4>Óculos Escuro</h4>
+                            <h6>R$ 260,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-12.jpg" alt="Item 3">
+                            <h4>Perfume Sauvage</h4>
+                            <h6>R$ 300,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-13.jpg" alt="Item 4">
+                            <h4>Relógio Preto</h4>
+                            <h6>R$ 250,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-14.jpg" alt="Item 5">
+                            <h4>Óculos Oklen</h4>
+                            <h6>R$ 460,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-15.png" alt="Item 6">
+                            <h4>Perfume Burberry</h4>
+                            <h6>R$ 300,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-16.jpg" alt="Item 7">
+                            <h4>Cordão de Inox</h4>
+                            <h6>R$ 180,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-17.jpg" alt="Item 8">
+                            <h4>Anel de Ouro</h4>
+                            <h6>R$ 390,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./assets/images/item-18.png" alt="Item 9">
+                            <h4>Pulseira de Prata</h4>
+                            <h6>R$ 290,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Receba novidades</h1>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <div class="main-content">
+                        <p>Insira seus dados abaixo para receber informações atualizadas de nossos produtos</p>
+                        <div class="container">
+                            <form id="subscribe" class="form" action="" method="get">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <fieldset>
+                                            <input name="Email" type="text" class="form-control" id="Email" value="" placeholder="Seu e-mail...">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <fieldset>
+                                            <button type="submit" class="button btn-outline-dark" id="form-submit">Inscreva-se</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="./assets/images/header-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#Produtos">Produtos</a></li>
+                            <li><a href="#sobre" rel="sobre" class="nav-modal-open">Sobre</a></li>
+                            <li><a href="#contato" rel="contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="https://www.instagram.com/bruno.oliveira.16/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bruno-oliveira1608/" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/BrunoOliveira16" title="github"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>WebStore &copy; Todos os direitos reservados.</p>
+                        <small>Desenvolvido por: <a href="https://github.com/BrunoOliveira16/jquery-academico.git">Bruno Oliveira</a>.</small></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contato" class="visually-hidden">
+        <form action="post" class="form">
+
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" name="nome" id="nome" title="Insira seu nome completo" class="form-control" placeholder="Digite seu nome" aria-describedby="helpNome">
+              <small id="helpNome" class="text-muted">
+                Digite um nome válido
+              </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu e-mail" aria-describedby="helpEmail">
+                <small id="helpEmail" class="text-muted">
+                  Digite um e-mail válido
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="date" class="form-label">Data</label>
+                <input type="text" name="date" id="date" class="form-control" placeholder="Digite uma data" aria-describedby="helpDate">
+                <small id="helpDate" class="text-muted">
+                  Digite uma data válida
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="time" class="form-label">Hora</label>
+                <input type="text" name="time" id="time" class="form-control" placeholder="Digite a hora" aria-describedby="helpHora">
+                <small id="helpHora" class="text-muted">
+                  Digite um tempo valido
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite seu CEP" aria-describedby="helpCEP">
+                <small id="helpCEP" class="text-muted">
+                  Digite um CEP valido
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Celular</label>
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite seu Celular" aria-describedby="helpCelular">
+                <small id="helpCelular" class="text-muted">
+                  Digite um celular valido
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Digite seu CPF" aria-describedby="helpCPF">
+                <small id="helpCPF" class="text-muted">
+                  Digite um CPF valido
+                </small>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </div>
+
+    <div id="sobre" class="visually-hidden">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae recusandae debitis dolorum accusantium. Esse in laudantium laborum atque amet necessitatibus nihil ea voluptas, repudiandae, aperiam aliquid velit optio vero vitae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quis quas atque amet delectus dolorem eos adipisci recusandae, est inventore architecto harum sapiente mollitia itaque! Quae iste modi possimus numquam!</p>
+
+    </div>
+
+    <!-- Bibliotecas -->
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./vendor/jquery-mask/jquery.mask.min.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- Scripts customizados -->
+    <script src="./assets/js/custom.js"></script>
+
+</body>
+</html>
