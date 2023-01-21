@@ -23,4 +23,59 @@
         color: #595959;
     }
 
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        padding: 16rem;
+
+        &__card {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            position: relative;
+            text-align: left;
+
+            &__header {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+                    gap: 1rem;
+
+                span {
+                    width: 5.7rem;
+                    height: 10.9rem;
+                    padding-bottom: 2rem;
+
+                    display: flex;
+                    align-items: flex-end;
+
+                    border-right: 1px solid #1A1A1A;
+                    border-bottom: 1px solid #1A1A1A; 
+                    object-fit: contain;
+                    
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                h2 {
+                    font-size: 2.4rem;
+                    line-height: 2.9rem;
+                    font-weight: 600;    
+                }
+            }
+
+            &__text {
+                p {
+                    font-size: 1.8rem;
+                    line-height: 2.2rem;
+                    font-weight: 400; 
+                    text-align: left;
+                    padding: 0 0 0 7rem;  
+                }
+    
+            }
+        }
+    }
 }
