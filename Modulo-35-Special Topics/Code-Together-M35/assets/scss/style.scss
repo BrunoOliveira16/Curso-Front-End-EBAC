@@ -4,6 +4,7 @@
 @import '__section_location';
 @import '__section_service';
 @import '__section_segment';
+@import '__footer';
 
 * {
     box-sizing: border-box;
@@ -18,7 +19,7 @@ html {
 body {
     max-width: 1920px;
     min-width: 360px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding: 0;
 
     font-family: 'Montserrat', sans-serif;
