@@ -7,22 +7,12 @@
 
     h1 {
         position: relative;
-        font-size: 4.8rem;
-        font-weight: 700;
-        line-height: 5.9rem;
         text-align: center;
-
-        color: #1A1A1A;
     }
 
     p {
-        font-size: 3.6rem;
-        font-weight: 400;
-        line-height: 4.4rem;
         text-align: center;
         padding: 0 20rem;
-
-        color: #595959;
     }
 
     &__map {
@@ -45,5 +35,56 @@
         height: 80rem;
         position: absolute;
         top: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .location {
+
+        &__map {
+            width: 80%;
+            height: 35rem;
+            margin: 3rem auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .location {
+        p {
+            padding: 0 3rem;
+        }
+
+        svg {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .location {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            padding: 0;
+        }
+
+        &__map {
+            width: 100%;
+            height: 30rem;
+            margin: 3rem auto;
+        }
+
+        svg {
+            display: none;
+        }
     }
 }
