@@ -1,20 +1,29 @@
 footer {
     width: 100%;
-    height: 15rem;
-    padding: 5rem 10rem;
+    height: 20rem;
+    padding: 3rem 10rem;
+    margin: 3rem auto 0;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    background-color: #1A1A1A;
-    color: #FFFFFF;
-
+    background-color: $color-001;
     object-fit: cover;
 
     img {
         max-width: 100%;
         height: auto;
+    }
+
+    p {
+        font-size: $font-p-sm !important;
+        color: $color-003 !important;
+    }
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        gap: 2rem;
     }
 }
