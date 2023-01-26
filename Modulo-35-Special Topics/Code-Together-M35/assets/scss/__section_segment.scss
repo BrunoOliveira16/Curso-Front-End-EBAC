@@ -5,22 +5,116 @@
     justify-content: center;
 
     h1 {
-        font-size: 4.8rem;
-        font-weight: 700;
-        line-height: 5.9rem;
         text-align: center;
-
-        color: #1A1A1A;
     }
 
     p {
-        font-size: 3.6rem;
-        font-weight: 400;
-        line-height: 4.4rem;
         text-align: center;
         padding: 0 20rem;
-
-        color: #595959;
     }
 
+    &__content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5rem;
+        padding: 16rem;
+
+        &__card {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            position: relative;
+            text-align: left;
+
+            &__header {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: flex-end;
+                    gap: 1rem;
+
+                span {
+                    width: 5.7rem;
+                    height: 10.9rem;
+                    padding-bottom: 2rem;
+
+                    display: flex;
+                    align-items: flex-end;
+
+                    border-right: 1px solid #1A1A1A;
+                    border-bottom: 1px solid #1A1A1A; 
+                    object-fit: contain;
+                    
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                h2 {
+                    line-height: 2.9rem;
+                    font-weight: 600;    
+                }
+            }
+
+            &__text {
+                p {
+                    font-size: 1.8rem;
+                    line-height: 2.2rem;
+                    text-align: left;
+                    padding: 0 0 0 7rem;  
+                }
+    
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px){
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 8rem;
+        }
+    }
+
+    @media screen and (max-width: 937px){
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        p {
+            padding: 0 3rem;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        padding: 1rem;
+        gap: 2rem;
+
+        p {
+            padding: 0;
+        }
+
+        &__content {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0;
+
+            &__card {
+
+                &__header {
+                    padding: 0 1rem;
+                }
+
+                &__text {
+                    padding: 1rem;
+
+                    p {
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
 }

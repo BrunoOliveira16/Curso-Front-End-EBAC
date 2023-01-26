@@ -39,4 +39,26 @@ header {
             }
         }
     }
+
+    @media screen and (max-width: 1024px) {
+        .header__list {
+            &__content {
+                gap: 5rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .header__list {
+            &__content {
+                gap: 2rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .header__list {
+            display: none;
+        }
+    }
 }

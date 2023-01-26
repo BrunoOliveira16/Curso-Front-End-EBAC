@@ -1,7 +1,7 @@
 .main {
     width: 100%;
     height: auto;
-    padding: 18.8rem 10rem;
+    padding: 10rem 10rem 0;
     display: flex;
     flex-direction: row;
 
@@ -31,19 +31,7 @@
         h1 {
             display: flex;
             margin: 0;
-
-            font-size: 6.4rem;
-            font-weight: 700;
-            line-height: 7.8rem;
             text-align: left;
-            color: #1A1A1A;
-        }
-
-        p {
-            font-size: 3.6rem;
-            font-weight: 400;
-            line-height: 4.3rem;
-            color: #595959;
         }
 
         button {
@@ -55,6 +43,71 @@
             text-align: center;
             color: #0074FF;
             background: none;
+            transition: .5s;
+
+            &:hover {
+                background-color: $color-001;
+                color: $color-003;
+                cursor: pointer;
+                box-shadow: 1px 3px 5px $color-002;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        padding: 5rem 2rem 0;
+
+        &__text {
+            gap: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 937px) {
+    .main {
+        &__img {
+            width: 50%;
+        }
+        &__text {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main {
+        width: 100%;
+        flex-direction: column;
+        padding: 1rem;
+
+        &__img {
+            width: 100%; 
+            height: 25rem;  
+            justify-content: center;
+        }
+
+        &__text {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            h1 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            button {
+                padding: .8rem 1.4rem;   
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
         }
     }
 }
